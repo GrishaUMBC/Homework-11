@@ -7,8 +7,8 @@ PURPOSE OF SOFTWARE: To take a series of binary bytes stored in memory, convert 
 FILES: README.md homework11.asm
 
 BUILD INSTRUCTIONS:
-nasm -f elf32 -o homework11.o homework11.asm
-ld -m elf_i386 -o homework11 homework11.o
-./homework11
+1. "nasm -f elf32 -o homework11.o homework11.asm"
+2. "ld -m elf_i386 -o homework11 homework11.o"
+3. "./homework11"
 
 ADDITIONAL INFORMATION: Good luck grading! I hope I did everything right.
